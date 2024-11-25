@@ -1,0 +1,4 @@
+com\ejemplo\PdfServlet.class
+com\ejemplo\UploadServlet.class
+com\ejemplo\ImagenServlet.class
+com\ejemplo\SftpConfig.class

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="jakarta.faces.html">
+    <head>
+        <title>Facelet Title</title>
+    </head>
+    <body>
+    <h1>Imagen desde el servidor!!!</h1>
+    <img src="imagen" alt="Imagen no disponible"/>
+    <h1>Subir Archivos al Servidor SFTP</h1>
+    <form action="upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file"></input>
+            <input type="submit" value="Subir Archivo"></input>
+    </form>
+    <a href="index.jsp">Volver al Inicio</a>
+    <h1>Documento PDF desde el Servidor de Archivos</h1>
+    <!-- El iframe muestra el archivo PDF -->
+    <iframe src="pdf" width="100%" height="600px"></iframe>
+    <img src="imagen?file=ERP/WhatsApp Image 2024-10-25 at 12.53.31 PM.jpeg" alt="Imagen no disponible"/>
+</body>
+</html>
